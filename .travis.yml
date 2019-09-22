@@ -9,4 +9,3 @@ before_script: pip install docker-compose
 
 script:
   - docker-compose run  python /code/manage.py runserver 0.0.0.0:8000
-  - docker-compose exec web python manage.py flake8
